@@ -9,7 +9,7 @@ describe "RecipeFinder App" do
   	before { visit '/' }
     
     it "displays 'Chocolate' (default)" do
-      expect(page).to have_content 'Chocolate'
+      expect(page).to have_content 'Chocolate Tea'
     end
 
     it "displays table element that has a row with 3 columns" do
